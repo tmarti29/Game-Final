@@ -25,11 +25,11 @@ public class Player : MonoBehaviour
         
         if(horizontalInput > 0.01f)
         {
-            transform.localScale = new Vector3(0.5f,1,0.02f);
+            transform.localScale = new Vector3(0.2596731f, 0.2596731f, 0.2596731f);
         }
         else if (horizontalInput < -0.01f)
         {
-            transform.localScale = new Vector3(-0.5f, 1, 0.02f);
+            transform.localScale = new Vector3(-0.2596731f, 0.2596731f, 0.2596731f);
         }
         if(wallJumpCooldown > 0.2f)
         {
